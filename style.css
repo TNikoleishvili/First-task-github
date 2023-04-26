@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Arial;
+    src: url(Fonts/arial_geo.ttf);
+}
+
+@font-face {
+    font-family: "bpg-glaho";
+    src: url(Fonts/bpg_glaho.ttf);
+}
+
+header {
+    font-family: "bpg-glaho";
+    font-size: 32px;
+    background-color:#8BE8F5;
+}
+
+.logo, nav {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 43.9px;
+    padding-bottom: 53.33px;
+}
+
+nav {
+    width: 72%;
+    text-align: right;
+    margin-right: 119px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+.logo {
+    margin-left: 118px;
+}
+
+.logo img {
+    display: inline-block;
+    width: 150px;
+    height: 47.77px;
+}
+.სიახლეები .კონტაქტი {
+    color: #FFEF5E;
+}
+
+.მთავარი {
+    color: #F90909;
+}
+
+.სიახლეები, .მთავარი {
+    margin-right: 52px;
+}
+
+.main-text {
+    padding-left: 118px;
+    padding-right: 119px;
+    background-color: rgba(242, 155, 244, 0.37)
+}
+
+h1 {
+    color: #750606;
+    font-family: "bpg-glaho";
+    font-size: 32px;
+    padding-top:28px;
+}
+
+p {
+    font-family: Arial;
+    color: #410E0E;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 33px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.box {
+    margin-top: 70px;
+    margin-left: 118px;
+    margin-right: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dispay-comp {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer {
+    margin-top: 70px;
+    background-color: #FFEF5E;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
